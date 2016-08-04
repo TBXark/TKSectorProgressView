@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author       = { "USER_NAME" => "E-MAIL" } # 作者
   s.source       = { :git => "https://github.com/TBXark/TKSectorProgressView.git", :tag => s.version } #* github源
   s.platform     = :ios, '8.0' # 平台,系统版本
-  s.source_files = 'TKSectorProgressView.swift' # 源代码文件,及路径
+  s.source_files = 'TKSectorProgressView/TKSectorProgressView.swift' # 源代码文件,及路径
   s.requires_arc = true # ARC 支持
 end

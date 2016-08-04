@@ -7,7 +7,6 @@
 [![CocoaPods](http://img.shields.io/cocoapods/p/TKSectorProgressView.svg?style=flat)](http://cocoapods.org/?q= TKSectorProgressView)
 [![Support](https://img.shields.io/badge/support-iOS%208%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)
 
-One to two paragraph statement about your product and what it does.
 
 ![](example.gif)
 
