@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TKSectorProgressView_swift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>6A9103651D5315230009451B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6A9103841D53699A0009451B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

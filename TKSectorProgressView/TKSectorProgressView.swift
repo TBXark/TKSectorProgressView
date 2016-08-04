@@ -9,7 +9,7 @@
 import UIKit
 
 
-struct TKSectorProgressViewConfigure {
+public struct TKSectorProgressViewConfigure {
     var borderColor: UIColor = UIColor(red:0.862,  green:0.272,  blue:0.282, alpha:1)
     var fillColor: UIColor = UIColor.whiteColor()
     var sectorColor: UIColor = UIColor(red:1,  green:0.493,  blue:0.474, alpha:1)
@@ -18,31 +18,31 @@ struct TKSectorProgressViewConfigure {
 }
 
 
-class TKSectorProgressView: UIView {
+public class TKSectorProgressView: UIView {
     
-    var progress: CGFloat = 0 {
+    public var progress: CGFloat = 0 {
         didSet {
             if progress != oldValue {
                 setNeedsDisplay()
             }
         }
     }
-    var configure = TKSectorProgressViewConfigure()
+    public var configure = TKSectorProgressViewConfigure()
     private var targetProgress: CGFloat?
     private var progressStep: CGFloat = 1
     private var currentLink: CADisplayLink?
-    var animateDuration: NSTimeInterval = 2.0
+    public var animateDuration: NSTimeInterval = 1
 
-    convenience init() {
+    convenience public init() {
         self.init(frame: CGRect.zero)
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = UIColor.clearColor()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         backgroundColor = UIColor.clearColor()
 
@@ -50,7 +50,7 @@ class TKSectorProgressView: UIView {
     
     
     
-    func setProgress(progress: CGFloat, animate: Bool) {
+    public func setProgress(progress: CGFloat, animate: Bool) {
         if animate {
             currentLink?.invalidate()
             targetProgress = progress
@@ -75,7 +75,7 @@ class TKSectorProgressView: UIView {
     }
     
     
-    override func drawRect(rect: CGRect) {
+    override public func drawRect(rect: CGRect) {
         let radius = min(rect.width, rect.height) - configure.borderWidth
         let pRect = CGRect(x: (rect.width - radius)/2,
                            y: (rect.height - radius)/2,
