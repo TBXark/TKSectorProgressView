@@ -78,7 +78,7 @@ TBXark – [@vfanx](https://twitter.com/vfanx) – tbxark@outlook.com
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/TBXark](https://github.com/TBXark)
 
 [swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
 [swift-url]: https://swift.org/
