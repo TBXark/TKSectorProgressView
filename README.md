@@ -31,7 +31,7 @@ To get the full benefits import `TKSectorProgressView` wherever you import UIKit
 
 ``` swift
 import UIKit
-import YourLibrary
+import TKSectorProgressView
 ```
 #### Carthage
 Create a `Cartfile` that lists the framework and run `carthage update`. Follow the [instructions](https://github.com/Carthage/Carthage#if-youre-building-for-ios) to add `$(SRCROOT)/Carthage/Build/iOS/TKSectorProgressView.framework` to an iOS project.
