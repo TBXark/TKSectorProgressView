@@ -31,8 +31,9 @@ class ViewController: UIViewController {
         progress.configure.fillColor = UIColor.whiteColor()
         progress.configure.sectorColor = UIColor(red:1,  green:0.493,  blue:0.474, alpha:1)
         progress.configure.borderWidth = 5
-        progress.configure.innerInset CGFloat = 5
+        progress.configure.innerInset =  5
         progress.animateDuration = 2
+        progress.progress = 0.2
         
         control.tintColor = progress.configure.borderColor
         control.addTarget(self, action: #selector(ViewController.changrProgress(_:)), forControlEvents: UIControlEvents.ValueChanged)

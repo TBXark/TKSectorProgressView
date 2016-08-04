@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6A9103841D53699A0009451B"
-               BuildableName = "TKSectorProgressView_swift.framework"
-               BlueprintName = "TKSectorProgressView_swift"
+               BlueprintIdentifier = "6A9103B01D5372740009451B"
+               BuildableName = "TKSectorProgress.framework"
+               BlueprintName = "TKSectorProgress"
                ReferencedContainer = "container:TKSectorProgressView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6A9103841D53699A0009451B"
-            BuildableName = "TKSectorProgressView_swift.framework"
-            BlueprintName = "TKSectorProgressView_swift"
+            BlueprintIdentifier = "6A9103B01D5372740009451B"
+            BuildableName = "TKSectorProgress.framework"
+            BlueprintName = "TKSectorProgress"
             ReferencedContainer = "container:TKSectorProgressView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6A9103841D53699A0009451B"
-            BuildableName = "TKSectorProgressView_swift.framework"
-            BlueprintName = "TKSectorProgressView_swift"
+            BlueprintIdentifier = "6A9103B01D5372740009451B"
+            BuildableName = "TKSectorProgress.framework"
+            BlueprintName = "TKSectorProgress"
             ReferencedContainer = "container:TKSectorProgressView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

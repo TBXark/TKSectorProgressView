@@ -27,7 +27,11 @@ public class TKSectorProgressView: UIView {
             }
         }
     }
-    public var configure = TKSectorProgressViewConfigure()
+    public var configure = TKSectorProgressViewConfigure() {
+        didSet {
+            setNeedsDisplay()
+        }
+    }
     private var targetProgress: CGFloat?
     private var progressStep: CGFloat = 1
     private var currentLink: CADisplayLink?
