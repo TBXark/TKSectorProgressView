@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TKSectorProgressView" #* 要和文件名一样
-  s.version      = "1.0.1" #* 版本号
+  s.version      = "1.3.0" #* 版本号
   s.summary      = "An simple animation sector progress view" # 简介
   s.homepage     = "https://github.com/TBXark/TKSectorProgressView" # 主页
   s.license      = { :type => 'MIT License', :file => 'LICENSE' } # 协议

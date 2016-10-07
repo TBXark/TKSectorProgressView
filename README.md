@@ -14,7 +14,8 @@
 ## Requirements
 
 - iOS 8.0+
-- Xcode 7.3
+- Xcode 8.0
+- Swift 3.0
 
 ## Installation
 
@@ -65,6 +66,9 @@ progress.setProgress(1, animate: true)
 
 
 ## Release History
+
+* 1.3.0
+  Support swift 3.0
 
 * 1.0
   Complete basic functions, add Cocoapod support
